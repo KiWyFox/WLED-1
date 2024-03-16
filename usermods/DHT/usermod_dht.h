@@ -13,7 +13,7 @@
 //   21   // DHT 21
 //   22   // DHT 22  (AM2302), AM2321 *** default
 #ifndef USERMOD_DHT_DHTTYPE
-#define USERMOD_DHT_DHTTYPE 22
+#define USERMOD_DHT_DHTTYPE 11
 #endif
 
 #if USERMOD_DHT_DHTTYPE == 11
@@ -45,7 +45,7 @@
 
 // the frequency to check sensor, 1 minute
 #ifndef USERMOD_DHT_MEASUREMENT_INTERVAL
-#define USERMOD_DHT_MEASUREMENT_INTERVAL 60000
+#define USERMOD_DHT_MEASUREMENT_INTERVAL 30000
 #endif
 
 // how many seconds after boot to take first measurement, 90 seconds
